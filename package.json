@@ -1,6 +1,6 @@
 {
   "name": "poslaju_status_tracker",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Get the tracking status from poslaju",
   "main": "index.js",
   "scripts": {

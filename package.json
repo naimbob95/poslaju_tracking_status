@@ -1,6 +1,6 @@
 {
-  "name": "@username/npm_poslaju_tracking",
-  "version": "1.0.1",
+  "name": "poslaju_status_tracker",
+  "version": "1.0.0",
   "description": "Get the tracking status from poslaju",
   "main": "index.js",
   "scripts": {

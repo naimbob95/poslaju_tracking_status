@@ -30,7 +30,7 @@ Example use in code:
 
 ```bash
 const poslaju = require("poslaju_status_tracker");
-const status = poslaju.get_tracking_status("PL350588872033");
+const status = poslaju.get_tracking_status("{{tracking_no}}");
 console.log(status);
 ```
 

@@ -1,18 +1,27 @@
 {
-  "name": "nodejs_poslaju",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@username/npm_poslaju_tracking",
+  "version": "1.0.1",
+  "description": "Get the tracking status from poslaju",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "naimbob95",
   "license": "ISC",
   "dependencies": {
     "cheerio": "^1.0.0-rc.5",
     "nstall": "^0.2.0",
     "request": "^2.88.2",
     "request-promise": "^4.2.6"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naimbob95/poslaju_tracking_status.git"
+  },
+  "bugs": {
+    "url": "https://github.com/naimbob95/poslaju_tracking_status/issues"
+  },
+  "homepage": "https://github.com/naimbob95/poslaju_tracking_status#readme"
 }

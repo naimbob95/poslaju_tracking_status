@@ -1,6 +1,6 @@
 const request = require("request-promise");
 const cheerio = require("cheerio");
-async function get_tracking_status(tracking) {
+export async function get_tracking_status(tracking) {
     const result = await request.get("https://sendparcel.poslaju.com.my/open/trace?tno="+tracking);
     const $ = cheerio.load(result);
     const data = [];
@@ -17,6 +17,3 @@ async function get_tracking_status(tracking) {
     console.log(data);
     
 }
-
-const tracking = process.argv[2];
-exports.get_tracking_status(tracking);

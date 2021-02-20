@@ -30,6 +30,7 @@ Example use in code:
 
 ```bash
 const poslaju = require("poslaju_status_tracker");
+#change the {{tracking_no}} with valid tracking_no
 const status = poslaju.get_tracking_status("{{tracking_no}}");
 console.log(status);
 ```
